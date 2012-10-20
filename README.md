@@ -1,6 +1,1 @@
-MarkPad Releases
-================
-
-### About
-
-This is an experiment with distributing MarkPad updates using Shimmer and GitHub Pages.
+MarkPad Releases================### AboutThis is an experiment with distributing MarkPad updates using Shimmer and GitHub Pages.### StepsThe ways to create a new release are actually very simple.1. Increment the version number in MarkPad's `tools\GenerateCommonAssemblyInfo.targets` file.2. Build the solution to get a new package.3. Copy the `.nupkg` result to the `dev` or `stable` folders in this repository.4. Run `sync.ps1` to generate the `RELEASES` metadata file for each folder.5. Commit the changes and push to GitHub.

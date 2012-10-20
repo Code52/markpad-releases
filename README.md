@@ -1,4 +1,6 @@
-markpad-releases
+MarkPad Releases
 ================
 
-A repository of the release packages which MarkPad uses to update itself
+### About
+
+This is an experiment with distributing MarkPad updates using Shimmer and GitHub Pages.
